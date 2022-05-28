@@ -13,6 +13,11 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
+gem 'devise'
+gem 'pry-rails'
+gem 'compass-rails'
+gem 'sprockets'
+gem 'carrierwave'
 
 ## react導入
 gem "react-rails"
@@ -22,6 +27,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "awesome_print"
   gem "web-console"
 end
 
