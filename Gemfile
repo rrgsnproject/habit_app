@@ -27,6 +27,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "awesome_print"
   gem "web-console"
 end
 

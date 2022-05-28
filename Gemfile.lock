@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    awesome_print (1.9.2)
     babel-source (5.8.35)
     babel-transpiler (0.7.0)
       babel-source (>= 4.0, < 6)
@@ -282,6 +283,7 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
+  awesome_print
   bootsnap
   capybara
   carrierwave
